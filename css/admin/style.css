@@ -1,0 +1,427 @@
+body {
+	position: relative;
+	width:100%;
+	height:100%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0px auto;
+    border: 0 none;
+    outline: 0 none;
+    padding: 0;
+}
+
+@font-face {
+	font-family: bpg;
+	src: url(../../font/bpg_nino_mtavruli_normal.otf);
+}
+
+a, img {
+    border:none;
+}
+
+#login {
+	position:relative;	
+	width:350px;
+	padding:0px;
+	margin:100px auto;
+	background:#fee8dc;
+	border-radius:10px;
+	padding:15px 0px;
+}
+
+.logininput{
+	width:250px;
+	height:44px;
+	padding:0;
+	margin:5px 20px;
+	border:1px solid #c1c1c1;
+	background:#f0f6f9 url(images/login.png) no-repeat scroll 12px 5px;
+	padding:0px 10px 0px 50px;
+	border-radius:5px;
+}
+
+.passwd{
+	background:#f0f6f9 url(images/passwd.png) no-repeat scroll 12px 5px;
+}
+
+.loginsubmit{
+	width:312px;
+	height:44px;
+	padding:0;
+	border:1px solid #c1c1c1;
+	background:#e65f16;
+	border-radius:5px;
+	font-family:bpg;
+	color:white;
+	font-size:14px;
+	letter-spacing:1px;
+	cursor:pointer;
+}
+
+#headerwrapper {
+	position:relative;
+	width:100%;
+	height:45px;
+	padding:0px;
+	margin-top:35px;
+}
+
+#header{
+	position:relative;
+	height:45px;
+	width:1020px;
+	margin:0 auto;
+}
+
+.logo{
+	float:left;
+}
+
+.headmenu{
+	float:right;
+}
+
+
+#menuwrapper{
+	position:relative;
+	width:100%;
+	height:47px;
+	background:#dc4e00;
+}
+#menu{
+	position:relative;
+	width:1020px;
+	margin:0 auto;
+	height:47px;
+	background:#dc4e00;
+}
+
+.shadow{
+	position:absolute;
+	width:622px;
+	height:81px;
+	background:url(images/shadow.png) no-repeat;
+	top:-17px;
+	left:160px;
+	z-index:0;
+}
+
+.content{
+	position:relative;
+	width:1020px;
+	min-height:300px;
+	height:auto;
+	overflow:hidden;
+	margin:30px auto;
+}
+
+.footer{
+	position:relative;
+	width:1020px;
+	height:50px;
+	background:#dc4e00;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+	margin:0px auto;
+}
+
+.add{
+	color:white;
+	text-decoration:none;
+	font-family:bpg;
+	font-size:12.5px;
+	background:#dc4e00;
+	border-radius:8px;
+	margin:5px 5px 5px 0px;
+	padding:8px 10px 5px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.info{
+	position:relative;
+	width:1020px;
+	height:auto;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.info th{
+	background:#f9e3d6;
+	color:black;
+	font-family:bpg;
+	text-align:left;
+	border-top:1px solid #9d9d9d;
+	border-bottom:1px solid #9d9d9d;
+	height:18px;
+	padding-top:3px;
+	padding-left:5px;
+}
+
+.info td{
+	border-bottom:1px solid #9d9d9d;
+	height:27px;
+	padding-top:3px;
+	padding-left:5px;
+	color:#595959;
+}
+
+
+.info td a{
+	text-decoration:none;	
+	color:#595959;
+	margin-left:5px;
+	cursor:pointer;
+}
+.info td:first-child{
+	width:100px;
+}
+
+.info .main{
+	font-size:14px;
+	font-weight:bold;
+	color:black;
+}
+
+.info ul{
+	margin:0;
+	padding:0;
+	margin-left:10px;
+}
+
+.info li{
+	position:relative;
+	padding:5px 0;
+	list-style:none;
+	border-bottom:1px solid black;
+}
+.info li:last-child{
+	border:0;
+}
+
+.info #delco{
+	position:absolute;
+	right:0px;
+	top:7px;
+	cursor:pointer;
+}
+.info td a:hover{
+	text-decoration:underline;
+}
+
+.config{
+	width:130px;
+	text-align:center !important;
+}
+
+.addtable{
+	width:1020px;
+}
+
+.addtable tr td:first-child{
+	width:160px;
+	font-family:bpg;
+	padding:8px 10px 5px;
+	font-size:12.5px;
+	background:#f9e3d6;
+}
+
+.addtable td:nth-child(2) input, .search, .searchname{
+	border:1px solid #c6c6c6;
+	background:#f5f5f5;
+	width:300px;
+	height:20px;
+	padding:5px;	
+	border-radius:5px;
+}
+.addtable td textarea{
+	width:600px;
+	height:200px;
+}
+
+.addtable td{
+	position:relative;
+}
+
+.addtable td:nth-child(2) select{
+	border:1px solid #c6c6c6;
+	background:#f5f5f5;
+	width:312px;
+	height:30px;
+	border-radius:5px;
+	padding:5px 5px 5px 0px;
+}
+
+.addsubmit {
+	color:white;
+	text-decoration:none;
+	font-family:bpg;
+	font-size:12.5px;
+	background:#dc4e00;
+	border-radius:8px;
+	margin:5px 5px 5px 0px;
+	padding:8px 10px 5px;
+	display:inline-block;
+	border:0;
+	cursor:pointer;
+}
+
+.search, .searchname{
+	float:right;
+	width:100px;
+	margin-left:20px;
+}
+.ge, .en, .ru{
+	position:relative;
+	top:2px;
+	left:2px;
+	color:white;
+	text-decoration:none;
+	font-family:bpg;
+	font-size:12.5px;
+	background:#dc4e00;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	padding:8px 10px 5px;
+	display:inline-block;
+	cursor:pointer;
+}
+.active{
+	background:black;
+}
+
+.langen, .langru {
+	display:none;
+}
+
+.addposter{
+	position:relative;
+	width:200px;
+	height:40px;
+	line-height:40px;
+	background:url(images/poster.png) repeat-x;
+	text-align:center;
+	font-family:bpg;
+	color:white;
+	text-decoration:none;
+	border-radius:10px;
+	cursor:pointer;
+}
+#PhotoPrevs{
+	position:relative;
+}
+.posters{
+	float:left;
+	margin-left:10px;
+}
+.posterinput{
+	position:relative;
+	width:188px !important;
+	display:block;
+}
+.picture{
+	position:absolute;
+	z-index:1111;
+	right:0;
+	top:-35px;
+}
+.lmenu{
+	position:absolute;
+	z-index:1111;
+	left:0;
+	top:-35px;
+}
+.dropdown{
+	float:right;
+	cursor:pointer;
+}
+
+#ajax td:first-child, #ajax1 td:first-child{
+	width:200px!important; 
+}
+
+#ajax input, #ajax1 input{
+    border: none;
+    width: 100%;
+	height:20px;
+    margin: 0;
+	float:left;
+	cursor:pointer;
+    background: none;
+}
+
+.submenu{
+	background:#d5d5d5;
+}
+
+#ajax .focus, #ajax1 .focus {
+    border: 1px solid #000;
+}
+
+.left{
+	position:absolute; 
+	right:9px;
+	top:24px;
+	cursor:pointer;
+}
+.left a{
+	text-decoration:none;
+	color:black;
+}
+.tips1, .tips2, .tips3, .tips4, .tips5, .category1, .category2, .category3, .category4, .category5{
+	margin-right:10px;
+}
+.content span{
+	cursor:pointer;
+}
+
+.tips2, .tips3, .tips4, .tips5, .category2, .category3, .category4, .category5{
+	display:none;
+}
+
+#ganuleba{
+	cursor:pointer;
+}
+
+
+.upload_new, .upload_news{
+		top: 50px; 
+		left: 50%;
+		margin-left: -100px;
+		width: 200px;
+		background: #fff;
+		position: absolute;
+		z-index: 101;
+		padding: 50px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		display:none;
+}
+
+.bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: block;
+		top: 0;
+		left: 0; 
+		display:none;
+		}
+
+		.mDelete{
+			float:left;
+		}
+		
+		.red{
+			color:red;
+		}
+		.green{
+			color:green;
+		}

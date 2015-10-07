@@ -1,0 +1,123 @@
+
+.slider { margin: 20px 0 30px; }
+.scroll-pane, .scroll-panel { overflow: hidden; width: 940px; }
+.scroll-content, .scroll-cont { white-space: nowrap; float: left; list-style-type: none; height:160px; margin: 0 0 36px; }
+.scroll-content > li, .scroll-cont > li { display:inline; margin-right: 14px;	 width:229px; height:126px; position: relative; }
+.scroll-content > li:last-child, .scroll-cont > li:last-child { margin: 0; }
+.scroll-bar-wrap, .scroll-bars-wrap { clear: left; padding: 0 4px 0 2px; 
+		border:1px solid #c7c7c7;
+		border-radius:50px;
+		background-image: linear-gradient(to top, #e3e3e3 70%, #c7c7c7); height:14px;}
+.scroll-bar-wrap .ui-slider { background: none; border:0; height: 30px; margin: 0 auto;  }
+.scroll-bar-wrap .ui-handle-helper-parent { position: relative; width: 100%; height: 100%; margin: 0 auto; }
+.scroll-bar-wrap .ui-slider-handle { position: absolute;  top:0px; height: 14px; z-index: 2; background:url('../images/slider.png')no-repeat; border:0; }
+.scroll-bar-wrap .ui-slider-handle{
+background-size:100% 14px;
+}
+.scroll-bar-wrap .ui-slider-handle .ui-icon { margin: -8px auto 0; position: relative; top: 50%; background: url("ui-icons_cccccc_256x240.png") 0 -224px no-repeat; height: 16px; width: 16px; display: block; overflow: hidden; text-indent: -99999px;}
+
+.box, .boxs{
+	color:#616060;
+	font-family:sylfaen;
+	width: 229px;
+	height: 154px;
+	-webkit-border-radius: 9px/10px;
+	-moz-border-radius: 9px/10px;
+	border-radius: 9px/10px;
+	background-color: #eaeaea;
+	border: solid 1px #aeaeae;
+	padding:75px 114px;
+	overflow:hidden;
+	top:85px;	
+}
+
+.boxs img.photoL{
+	width:620px;
+	height:300px;
+}
+
+.boxs{
+	width:620px;
+	height:343px;
+	padding:0;
+}
+
+.box ul, .boxs ul {
+		background-color:#dadada;
+		border-top:dashed 1px #7b7b7b;
+		width:229px;
+		overflow:hidden;
+		position:absolute;
+		bottom:0px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+}
+
+.box ul li img, .boxs ul li img {
+				position:relative;
+				padding-right:10px;
+				top:2px;
+}
+				
+.box ul li, .boxs ul li {
+			float:left;
+			padding:10px 19px 8px 19px;
+			border-right:dashed 1px #7b7b7b;
+			font-size:14px;
+}
+.box ul li span, .boxs ul li span{
+	position:relative;
+	top:-3px;
+}
+
+.box ul li:last-child, .boxs ul li:last-child{
+	border:0;
+}
+
+.gallery{
+	position: relative;
+	width:964px; 
+	overflow:hidden;
+	height:auto; 
+}
+
+.box ul li:last-child, .boxs ul li{
+	border:0;
+}
+
+.gallery .box img.photo{
+	width:229px;
+}
+
+
+.gallery .box, .gallery .boxs{
+	float:left;
+	position:relative;
+	margin-right:13px;
+	float:left;
+	padding:0;
+	margin-bottom:10px;
+	top:0px;
+}
+
+.gallery .margR{
+	margin-right:0;
+}
+
+.boxs ul{
+	position:relative;
+	width:620px;
+	bottom:4px;
+}
+
+.comments{
+	margin-top:30px;
+}
+
+.addLike, .addAtt{
+	cursor:pointer;
+}
+
+.scroll-content  .box{
+	margin-bottom:0;
+}
